@@ -11,7 +11,7 @@ class Persona:
     def __str__(self):
         return f"Hi ! I'm {self._first_name} {self._last_name}"
     
-    def set_address(self,address_street="", address_number="", city="", postcode=""):
+    def set_address(self,address_street, address_number, city, postcode):
         self._address_street = address_street
         self._address_number = address_number
         self._city = city
